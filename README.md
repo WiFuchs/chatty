@@ -1,6 +1,6 @@
 # Chatty
 
-Chatty is a jQuery add-on that creates a chatbot-like experience from a json question format.
+Chatty is a jQuery add-on that creates a chatbot-like experience from a json question format. [Live Demo](https://jsfiddle.net/wfuchs/6svdqpce/29/)
 
 ## Setup
 
@@ -32,6 +32,14 @@ $(document).ready(function () {
     Chat.start($('#chat-context'), tags);
 });
 ```
+
+## Dependencies
+
+Chatty relies on the following:
+
+* [Velocity.js](https://github.com/julianshapiro/velocity)
+* [jQuery](https://jquery.com/)
+
 
 ## Documentation
 
