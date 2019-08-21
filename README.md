@@ -35,7 +35,7 @@ $(document).ready(function () {
 
 ## Documentation
 
-Supported options and usage details live in the wiki
+Full documentation lives in the repo wiki. [Check it out!](https://github.com/WiFuchs/chatty/wiki)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
