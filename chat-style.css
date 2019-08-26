@@ -96,6 +96,8 @@
 #ui-response.hide {
     overflow: hidden;
     animation: hide .5s forwards;
+    -webkit-animation: hide .5s forwards;
+    -moz-animation: hide .5s forwards;
 }
 @keyframes hide {
     0% {
@@ -103,6 +105,7 @@
     }
     99.9999% {
         opacity: 0;
+        max-height: 60px;
     }
     100% {
         max-height: 0em;
