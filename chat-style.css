@@ -94,8 +94,19 @@
     width: 100%;
 }
 #ui-response.hide {
-    max-height: 0em;
     overflow: hidden;
+    animation: hide .5s forwards;
+}
+@keyframes hide {
+    0% {
+        opacity: 1;
+    }
+    99.9999% {
+        opacity: 0;
+    }
+    100% {
+        max-height: 0em;
+    }
 }
 
 #ui-submit {
