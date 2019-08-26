@@ -81,7 +81,11 @@
 
 #ui-response {
     height: 60px;
+    max-height: 60px;
     position: relative;
+    transition: all .5s ease-out;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
 }
 #ui-response.full-submit #response-text {
     display: none;
@@ -90,7 +94,8 @@
     width: 100%;
 }
 #ui-response.hide {
-    display: none;
+    max-height: 0em;
+    overflow: hidden;
 }
 
 #ui-submit {

@@ -136,15 +136,17 @@ var Chat = (function () {
 
         addResponse(true, curTag["chat-msg"], curTag.content || "");
 
+
+
+        if (curTag.tag && curTag.tag != "text" && curTag.tag != "custom") {
+            addOptions(curTag.children);
+        }
+
         if (curTag.submitBarStyle) {
             $('#ui-response').addClass(curTag.submitBarStyle);
         }
         else {
             $('#ui-response').removeClass();
-        }
-
-        if (curTag.tag && curTag.tag != "text" && curTag.tag != "custom") {
-            addOptions(curTag.children);
         }
 
         //support custom data tags (eg clickable map) by user-supplied 'renderer' returning html into options
