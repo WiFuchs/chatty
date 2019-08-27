@@ -136,8 +136,6 @@ var Chat = (function () {
 
         addResponse(true, curTag["chat-msg"], curTag.content || "");
 
-
-
         if (curTag.tag && curTag.tag != "text" && curTag.tag != "custom") {
             addOptions(curTag.children);
         }
@@ -155,9 +153,7 @@ var Chat = (function () {
             textResponse.attr('readonly', true);
             await curTag.renderer();
             //If chat response already scrolled into view, make sure that custom content does not cover it up
-            if (waiting) {
-                $('.chat-response:last').velocity("scroll", { container: chat, duration: 500 });
-            }
+            $('.chat-response:last').velocity("scroll", { container: chat, duration: 500 });
         }
 
         //hide submit options until response has rendered, if response has not yet rendered
