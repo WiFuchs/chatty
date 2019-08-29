@@ -4,11 +4,11 @@ Chatty is a jQuery add-on that creates a chatbot-like experience from a json que
 
 ## Setup
 
-Add the style and javascript files to your html markup
+Add the style and javascript files to your html markup. All source files from releases are freely available on [jsdelivr](https://www.jsdelivr.com/)
 
 ```html
-<link rel="stylesheet" href="chatbot/chat-style.css">
-<script src="./chatbot/chatModule.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/WiFuchs/chatty@v1.0/chat-style.css">
+<script src="https://cdn.jsdelivr.net/gh/WiFuchs/chatty@v1.0/chatModule.js" type="text/javascript"></script>
 ```
 
 ## Usage
@@ -39,6 +39,7 @@ Chatty relies on the following:
 
 * [Velocity.js](https://github.com/julianshapiro/velocity)
 * [jQuery](https://jquery.com/)
+* [FontAwesome](https://fontawesome.com/?from=io) (only for submit arrow - could override in stylesheet to use any other library or icon)
 
 
 ## Documentation
