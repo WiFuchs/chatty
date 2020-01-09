@@ -7,8 +7,8 @@ Chatty is a jQuery add-on that creates a chatbot-like experience from a json que
 Add the style and javascript files to your html markup. All source files from releases are freely available on [jsdelivr](https://www.jsdelivr.com/)
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/WiFuchs/chatty@v1.0/chat-style.css">
-<script src="https://cdn.jsdelivr.net/gh/WiFuchs/chatty@v1.0/chatModule.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/WiFuchs/chatty@v1.1/chat-style.css">
+<script src="https://cdn.jsdelivr.net/gh/WiFuchs/chatty@v1.1/chatModule.js" type="text/javascript"></script>
 ```
 
 ## Usage
