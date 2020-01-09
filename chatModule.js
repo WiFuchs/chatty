@@ -220,7 +220,7 @@ var Chat = (function () {
         }
 
         //if no input, throw error
-        if (selected.length == 0) {
+        if (selected.length == 0 || (curTag.validator && !curTag.validator(selected))) {
             if (!curTag.optional) {
                 return invalidInput(curTag.invalid || 'Invalid input');
             }
