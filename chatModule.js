@@ -238,7 +238,7 @@ var Chat = (function () {
         removeOptions();
 
         if (curTag.success) {
-            curTag.success(data);
+            await curTag.success(data);
         }
 
         if (next < tags.length) {
